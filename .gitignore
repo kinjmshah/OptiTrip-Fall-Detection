@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.swo
+*.swp
+*.png
+*.jpg
+*.mp4
+LOCAL*
