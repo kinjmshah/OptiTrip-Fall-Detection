@@ -1,5 +1,6 @@
 # OptiTrip: Detecting Falls Using Optical Flow 
 ### _Johns Hopkins University - Computer Vision Fall 2020 - Final Project_
+
 ### Human Pose Estimation
 _Executeable File: humanPose.ipynb_
 
@@ -8,20 +9,21 @@ _Executeable File: humanPose.ipynb_
 ### Optical Flow 
 _Executeable File: OpticalFlow.ipynb_
 
-Combining the complimentary signals of human-pose tracking and optical flow tracking a method is used to concentrate optical flow tracking to just the area of interest in the frame - for fall detection this is the person falling. The limitations for this method include: only one person can be falling the frame at a time (although several can be detected), the camera must be stationary, and the thresholding parameters may need minor adjustment per dataset.  
+Frame-to-frame optical flow calculated using tools from OpenCV. Optical flow calculated for all pixels. Average optical flow used to classify video as fall or no fall based on thresholing with a pre-set threshold.
 
-## Executable Files
-**OFbased.ipynb:** Implementation of optical flow only fall detection method <br />
-**humanPose.ipynb:** Implementation of human pose only fall detection method <br />
-- currently set up to be executed locally (to change to Google Colab execution, see instructions before last cell) <br />
+_For Reference Only: OpticalFlow_ReferenceOnly.ipynb_
+This file calculated Optical Flow method statistics across both URFD and our Custom Fall dataset - results are saved in the notebook and for reference only - this notebook will not run as required dataset are not loaded as part of the notebook
 
-**combined_HP_OF:** implementation of combined method (human pose and optical flow)
-- currently setup to be executed on colab (please upload all files in this directory into the colab directory)
+### Combined: Human Pose and Optical Flow 
+_Executeable File: combined_humanPose_opticalFlow.ipynb_
 
-## For Reference Only
-**OF_cv2.ipynb:** calculated Optical Flow method statistics across both URFD and our Custom Fall dataset - results are saved in the notebook and for reference only - this notebook will not run as required dataset are not loaded as part of the notebook
+The human pose and optical flow signals are combined to provide a method which addresses the sparseness of the human pose method and the sensitivity of the optical flow method to background noise. By detecting the human pose and bounding box, we are able to focus the optical flow calculations to a target region of interest (ROI). Currently, only one person can be in the frame at a time, camera must be stationary, and thresholding parameters may need to be adjusted by dataset. 
 
 ## Datasets
-URFD: http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html <br />
-Custom Fall Dataset: For access to this dataset send a request to tevere.erica11@gmail.com and kshah31@jhu.edu
+URFD: http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html                 
+Custom Fall Dataset: For access to this dataset send a request to tevere.erica11@gmail.com and kinjmshah@gmail.com
+
+## Notes
+1. Executeable files can have two methods, either loading all files into a single root directory where the executeable notebook is located, or having access to the final project google drive. Access to the _custom fall dataset_ is needed to run the demo files. 
+
 
