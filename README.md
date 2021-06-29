@@ -17,7 +17,8 @@ _Executeable File: [opticalFlow.ipynb](https://github.com/kinjmshah/OptiTrip-Fal
 
 Frame-to-frame optical flow calculated using tools from OpenCV. Optical flow calculated for all pixels. Average optical flow used to classify video as fall or no fall based on thresholing with a pre-set threshold.
 
-_For Reference Only: [OpticalFlow_ReferenceOnly.ipynb](https://github.com/kinjmshah/OptiTrip-Fall-Detection/blob/main/opticalFlow_referenceOnly.ipynb)_           
+_For Reference Only: [OpticalFlow_ReferenceOnly.ipynb](https://github.com/kinjmshah/OptiTrip-Fall-Detection/blob/main/opticalFlow_referenceOnly.ipynb)_       
+
 This file calculated Optical Flow method statistics across both URFD and our Custom Fall dataset - results are saved in the notebook and for reference only - this notebook will not run as required dataset are not loaded as part of the notebook
 
 ### Combined: Human Pose and Optical Flow 
