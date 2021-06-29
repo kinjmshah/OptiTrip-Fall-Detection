@@ -16,4 +16,5 @@ Combining the complimentary signals of human-pose tracking and optical flow trac
 
 ## Datasets
 URFD: http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html <br />
-Custom Fall Dataset: https://drive.google.com/drive/folders/1MmrSGVAX_Lxq1SyO1UuayjkleycAl5nu?usp=sharing
+Custom Fall Dataset: For access to this dataset send a request to tevere.erica11@gmail.com and kshah31@jhu.edu
+
