@@ -1,6 +1,12 @@
 # OptiTrip: Detecting Falls Using Optical Flow 
 ### _Johns Hopkins University - Computer Vision Fall 2020 - Final Project_
 
+### Team Members
+- Kinjal Shah
+- Erica Tevere
+- Catalina Gomez
+- Maia Stiber
+
 ### Human Pose Estimation
 _Executeable File: humanPose.ipynb_
 
