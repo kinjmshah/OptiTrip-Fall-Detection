@@ -1,5 +1,13 @@
 # OptiTrip: Detecting Falls Using Optical Flow 
-## Johns Hopkins University - Computer Vision Fall 2020 - Final Project 
+### Johns Hopkins University - Computer Vision Fall 2020 - Final Project 
+
+### Human Pose Estimation
+_Executeable File: humanPose.ipynb_
+
+[Detectron2](https://github.com/facebookresearch/detectron2) library used to extract human bounding box and pose keypoints. Keypoints and bounding box corners are tracked between frames to produce frame-to-frame keypoint velocity estimation.
+
+### Optical Flow 
+_Executeable File: OpticalFlow.ipynb_
 
 Combining the complimentary signals of human-pose tracking and optical flow tracking a method is used to concentrate optical flow tracking to just the area of interest in the frame - for fall detection this is the person falling. The limitations for this method include: only one person can be falling the frame at a time (although several can be detected), the camera must be stationary, and the thresholding parameters may need minor adjustment per dataset.  
 
