@@ -1,6 +1,5 @@
 # OptiTrip: Detecting Falls Using Optical Flow 
-### Johns Hopkins University - Computer Vision Fall 2020 - Final Project 
-
+_### Johns Hopkins University - Computer Vision Fall 2020 - Final Project _
 ### Human Pose Estimation
 _Executeable File: humanPose.ipynb_
 
