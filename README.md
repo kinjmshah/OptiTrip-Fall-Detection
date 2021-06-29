@@ -11,8 +11,8 @@ Combining the complimentary signals of human-pose tracking and optical flow trac
 **combined_HP_OF:** implementation of combined method (human pose and optical flow)
 - currently setup to be executed on colab (please upload all files in this directory into the colab directory)
 
-## Not Executable - for reference only
-**OF_cv2.ipynb:** calculated Optical Flow method statistics across both URFD and our Custom Fall dataset
+## For Reference Only
+**OF_cv2.ipynb:** calculated Optical Flow method statistics across both URFD and our Custom Fall dataset - results are saved in the notebook and for reference only - this notebook will not run as required dataset are not loaded as part of the notebook
 
 ## Datasets
 URFD: http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html <br />
